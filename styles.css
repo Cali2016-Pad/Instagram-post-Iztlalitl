@@ -7,7 +7,7 @@ div{
 }
 header{
     background:white;
-    padding: 10px;
+    padding: 15px;
 }
 header h1{
     margin:0;
@@ -16,23 +16,24 @@ header h1{
     background: white;
     margin-top:10px;
 }
-.posimg{
-    max-width:50%;
+.post img{
+    max-width:100%;
 }
 .post .post-header div:first-child{
-    display: inline-clock;
+    display: inline-block;
     width:80%;
+    margin: center;
 }
 .post .post-header div:last-child{
     display: inline-block;
     width:18%;
-    padding:10px;
+    padding:20px;
     text-align:right;
     color:grey;
 }
 .post h2, .post p{
     padding: 10px;
-    margin:0;
+    margin: center;
 }
 .container{
     width: 600px;
